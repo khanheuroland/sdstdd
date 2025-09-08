@@ -56,6 +56,6 @@ public class PrimeNumberTest {  /* [Class Under Test]Test */
 
         //Get exception
         Exception ex= assertThrows(IllegalArgumentException.class, ()-> PrimeNumber.check(number));
-        assertEquals(ex.getMessage(), "Number should be integer number!");
+        assertEquals(ex.getMessage(), "Number should be integer number");
     }
 }
