@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8d097a7-5886-4824-8433-428382406415" name="Changes" comment="" />
+    <list default="true" id="e8d097a7-5886-4824-8433-428382406415" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/samsungtdd/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/samsungtdd/FizzBuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +37,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.FizzBuzzTest.executor": "Run",
+    "JUnit.FizzBuzzTest.result_contains_both_fizzbuzz_if_number_divisible_by_3_and_5.executor": "Run",
+    "JUnit.FizzBuzzTest.result_contains_buzz_if_number_vivisible_by_5.executor": "Run",
+    "JUnit.FizzBuzzTest.should_return_output_contains_fizz_if_number_divisible_by_3.executor": "Run",
+    "JUnit.FizzBuzzTest.throw_exception_if_number_is_negative.executor": "Run",
     "JUnit.PrimeNumberTest.executor": "Run",
     "JUnit.PrimeNumberTest.should_return_exception_with_negative_number.executor": "Run",
     "JUnit.PrimeNumberTest.should_return_false_with_non_prime_number.executor": "Run",
@@ -39,6 +51,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
@@ -49,8 +63,8 @@
       <recent name="samsungtdd" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PrimeNumberTest">
-    <configuration name="PrimeNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FizzBuzzTest">
+    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDExample" />
       <extension name="coverage">
         <pattern>
@@ -59,13 +73,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="samsungtdd" />
-      <option name="MAIN_CLASS_NAME" value="samsungtdd.PrimeNumberTest" />
+      <option name="MAIN_CLASS_NAME" value="samsungtdd.FizzBuzzTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumberTest.should_return_exception_with_negative_number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.result_contains_both_fizzbuzz_if_number_divisible_by_3_and_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDExample" />
       <extension name="coverage">
         <pattern>
@@ -74,14 +88,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="samsungtdd" />
-      <option name="MAIN_CLASS_NAME" value="samsungtdd.PrimeNumberTest" />
-      <option name="METHOD_NAME" value="should_return_exception_with_negative_number" />
+      <option name="MAIN_CLASS_NAME" value="samsungtdd.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="result_contains_both_fizzbuzz_if_number_divisible_by_3_and_5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumberTest.should_return_false_with_non_prime_number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.result_contains_buzz_if_number_vivisible_by_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDExample" />
       <extension name="coverage">
         <pattern>
@@ -90,14 +104,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="samsungtdd" />
-      <option name="MAIN_CLASS_NAME" value="samsungtdd.PrimeNumberTest" />
-      <option name="METHOD_NAME" value="should_return_false_with_non_prime_number" />
+      <option name="MAIN_CLASS_NAME" value="samsungtdd.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="result_contains_buzz_if_number_vivisible_by_5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumberTest.should_return_fasle_with_number_less_than_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.should_return_output_contains_fizz_if_number_divisible_by_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDExample" />
       <extension name="coverage">
         <pattern>
@@ -106,14 +120,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="samsungtdd" />
-      <option name="MAIN_CLASS_NAME" value="samsungtdd.PrimeNumberTest" />
-      <option name="METHOD_NAME" value="should_return_fasle_with_number_less_than_2" />
+      <option name="MAIN_CLASS_NAME" value="samsungtdd.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="should_return_output_contains_fizz_if_number_divisible_by_3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumberTest.should_return_true_if_number_is_prime_number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.throw_exception_if_number_is_negative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDExample" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +136,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="samsungtdd" />
-      <option name="MAIN_CLASS_NAME" value="samsungtdd.PrimeNumberTest" />
-      <option name="METHOD_NAME" value="should_return_true_if_number_is_prime_number" />
+      <option name="MAIN_CLASS_NAME" value="samsungtdd.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="throw_exception_if_number_is_negative" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PrimeNumberTest" />
-        <item itemvalue="JUnit.PrimeNumberTest.should_return_exception_with_negative_number" />
-        <item itemvalue="JUnit.PrimeNumberTest.should_return_false_with_non_prime_number" />
-        <item itemvalue="JUnit.PrimeNumberTest.should_return_true_if_number_is_prime_number" />
-        <item itemvalue="JUnit.PrimeNumberTest.should_return_fasle_with_number_less_than_2" />
+        <item itemvalue="JUnit.FizzBuzzTest" />
+        <item itemvalue="JUnit.FizzBuzzTest.throw_exception_if_number_is_negative" />
+        <item itemvalue="JUnit.FizzBuzzTest.result_contains_both_fizzbuzz_if_number_divisible_by_3_and_5" />
+        <item itemvalue="JUnit.FizzBuzzTest.result_contains_buzz_if_number_vivisible_by_5" />
+        <item itemvalue="JUnit.FizzBuzzTest.should_return_output_contains_fizz_if_number_divisible_by_3" />
       </list>
     </recent_temporary>
   </component>
