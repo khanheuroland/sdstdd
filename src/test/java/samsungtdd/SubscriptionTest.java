@@ -3,6 +3,8 @@ package samsungtdd;
 import org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.Matchers.equalTo;
@@ -45,10 +47,11 @@ public class SubscriptionTest {
         assertThat(actual, equalTo(expected));
     }
 
-    @Test
-    public void should_return_exception_after_subscribe_email_not_valid()
+    @ParameterizedTest
+    @ValueSource(strings = {"khanh.tx", "khanh tx@live.com", "khanh_tx@live com", "khanh.tx@gmail.com.vn.md.com"})
+    public void should_return_exception_after_subscribe_email_not_valid(String input)
     {
-        String input ="khanh.tx";
+        //String input ="khanh.tx";
         //khanh tx@live.com
         //khanh_tx@live com
         //khanh.tx@gmail.com.vn.md.com
