@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8d097a7-5886-4824-8433-428382406415" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/samsungtdd/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/samsungtdd/FizzBuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/samsungtdd/Common/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/samsungtdd/Subscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/samsungtdd/Common/UtilityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/samsungtdd/JUnitAnnotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/samsungtdd/JUnitAssertTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/samsungtdd/SubscriptionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/samsungtdd/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samsungtdd/FizzBuzz.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +40,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.JUnitAnnotation.executor": "Run",
     "JUnit.FizzBuzzTest.executor": "Run",
     "JUnit.FizzBuzzTest.result_contains_both_fizzbuzz_if_number_divisible_by_3_and_5.executor": "Run",
     "JUnit.FizzBuzzTest.result_contains_buzz_if_number_vivisible_by_5.executor": "Run",
     "JUnit.FizzBuzzTest.should_return_output_contains_fizz_if_number_divisible_by_3.executor": "Run",
     "JUnit.FizzBuzzTest.throw_exception_if_number_is_negative.executor": "Run",
+    "JUnit.JUnitAnnotation.Test_vui_vui.executor": "Run",
+    "JUnit.JUnitAnnotation.executor": "Run",
+    "JUnit.JUnitAnnotationTest.executor": "Run",
+    "JUnit.JUnitAssertTest.HamcrestAssert.executor": "Run",
+    "JUnit.JUnitAssertTest.JunitAssert.executor": "Run",
+    "JUnit.JUnitAssertTest.executor": "Run",
+    "JUnit.JUnitAssertTest.test_compare_1_of_2_number.executor": "Run",
+    "JUnit.JUnitAssertTest.test_every_item.executor": "Run",
     "JUnit.PrimeNumberTest.executor": "Run",
     "JUnit.PrimeNumberTest.should_return_exception_with_negative_number.executor": "Run",
     "JUnit.PrimeNumberTest.should_return_false_with_non_prime_number.executor": "Run",
     "JUnit.PrimeNumberTest.should_return_fasle_with_number_less_than_2.executor": "Run",
     "JUnit.PrimeNumberTest.should_return_true_if_number_is_prime_number.executor": "Run",
+    "JUnit.SubscriptionTest.executor": "Run",
+    "JUnit.SubscriptionTest.should_return_exception_after_subscribe_email_not_valid.executor": "Run",
+    "JUnit.SubscriptionTest.should_return_false_after_subscribe_with_valid_email_but_already_in_used.executor": "Run",
+    "JUnit.SubscriptionTest.should_return_true_after_subscribe_with_valid_email.executor": "Run",
+    "JUnit.SubscriptionTest.should_return_true_after_subscribe_with_valid_email_and_not_subscribe.executor": "Run",
+    "JUnit.SubscriptionTest.should_throw_exception_after_subscribe_with_null.executor": "Run",
+    "JUnit.UtilityTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -63,8 +82,8 @@
       <recent name="samsungtdd" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest">
-    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UtilityTest">
+    <configuration name="SubscriptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDExample" />
       <extension name="coverage">
         <pattern>
@@ -73,13 +92,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="samsungtdd" />
-      <option name="MAIN_CLASS_NAME" value="samsungtdd.FizzBuzzTest" />
+      <option name="MAIN_CLASS_NAME" value="samsungtdd.SubscriptionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.result_contains_both_fizzbuzz_if_number_divisible_by_3_and_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SubscriptionTest.should_return_exception_after_subscribe_email_not_valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDExample" />
       <extension name="coverage">
         <pattern>
@@ -88,14 +107,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="samsungtdd" />
-      <option name="MAIN_CLASS_NAME" value="samsungtdd.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="result_contains_both_fizzbuzz_if_number_divisible_by_3_and_5" />
+      <option name="MAIN_CLASS_NAME" value="samsungtdd.SubscriptionTest" />
+      <option name="METHOD_NAME" value="should_return_exception_after_subscribe_email_not_valid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.result_contains_buzz_if_number_vivisible_by_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SubscriptionTest.should_return_true_after_subscribe_with_valid_email_and_not_subscribe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDExample" />
       <extension name="coverage">
         <pattern>
@@ -104,14 +123,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="samsungtdd" />
-      <option name="MAIN_CLASS_NAME" value="samsungtdd.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="result_contains_buzz_if_number_vivisible_by_5" />
+      <option name="MAIN_CLASS_NAME" value="samsungtdd.SubscriptionTest" />
+      <option name="METHOD_NAME" value="should_return_true_after_subscribe_with_valid_email_and_not_subscribe" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.should_return_output_contains_fizz_if_number_divisible_by_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SubscriptionTest.should_throw_exception_after_subscribe_with_null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDExample" />
       <extension name="coverage">
         <pattern>
@@ -120,36 +139,35 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="samsungtdd" />
-      <option name="MAIN_CLASS_NAME" value="samsungtdd.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="should_return_output_contains_fizz_if_number_divisible_by_3" />
+      <option name="MAIN_CLASS_NAME" value="samsungtdd.SubscriptionTest" />
+      <option name="METHOD_NAME" value="should_throw_exception_after_subscribe_with_null" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.throw_exception_if_number_is_negative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="samsungtdd.*" />
+          <option name="PATTERN" value="samsungtdd.Common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="samsungtdd" />
-      <option name="MAIN_CLASS_NAME" value="samsungtdd.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="throw_exception_if_number_is_negative" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="samsungtdd.Common" />
+      <option name="MAIN_CLASS_NAME" value="samsungtdd.Common.UtilityTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FizzBuzzTest" />
-        <item itemvalue="JUnit.FizzBuzzTest.throw_exception_if_number_is_negative" />
-        <item itemvalue="JUnit.FizzBuzzTest.result_contains_both_fizzbuzz_if_number_divisible_by_3_and_5" />
-        <item itemvalue="JUnit.FizzBuzzTest.result_contains_buzz_if_number_vivisible_by_5" />
-        <item itemvalue="JUnit.FizzBuzzTest.should_return_output_contains_fizz_if_number_divisible_by_3" />
+        <item itemvalue="JUnit.UtilityTest" />
+        <item itemvalue="JUnit.SubscriptionTest" />
+        <item itemvalue="JUnit.SubscriptionTest.should_return_true_after_subscribe_with_valid_email_and_not_subscribe" />
+        <item itemvalue="JUnit.SubscriptionTest.should_throw_exception_after_subscribe_with_null" />
+        <item itemvalue="JUnit.SubscriptionTest.should_return_exception_after_subscribe_email_not_valid" />
       </list>
     </recent_temporary>
   </component>

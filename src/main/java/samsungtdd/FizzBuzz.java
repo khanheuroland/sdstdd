@@ -1,21 +1,22 @@
 package samsungtdd;
 
 public class FizzBuzz {
-    public String[] getFizzBuzz(int n) {
-        if(n<=0)
+    public String[] getFizzBuzz(int inputNumber) {
+        if(inputNumber<=0)
             throw new IllegalArgumentException("Number should be possitive number.");
 
-        String[] arr = new String[n];
-        for (int i = 1; i <=n ; i++) {
-            if(i%3==0 && i%5==0)
-                arr[i-1] = "FizzBuzz";
+        String[] arr = new String[inputNumber];
+        for (int i = 1; i <=inputNumber ; i++) {
+            String value = String.valueOf(i);
+            if(i%15==0)
+                value = "FizzBuzz";
             else if(i%5==0)
-                arr[i-1] = "Buzz";
+                value = "Buzz";
             else if (i%3==0)
-                arr[i-1] = "Fizz";
-            else
-                arr[i-1] = String.valueOf(i);
+                value = "Fizz";
+
+            arr[i-1] = value;
         }
-        return arr;
+       return arr;
     }
 }
