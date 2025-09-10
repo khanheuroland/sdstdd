@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8d097a7-5886-4824-8433-428382406415" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/samsungtdd/Refactor/BankInterestCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/samsungtdd/Refactor/InterestStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/samsungtdd/Refactor/PremiumInterestStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/samsungtdd/Refactor/StandardInterestStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/samsungtdd/Refactor/VipInterestStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LinhTinhTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Refactor/BankInterestCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/samsungtdd/builderlombok/BuilderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/samsungtdd/builderlombok/SDSUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BuilderDemo.executor": "Run",
     "Application.JUnitAnnotation.executor": "Run",
     "Application.TryDemo.executor": "Run",
     "JUnit.BankInterestCalculatorTest.executor": "Run",
@@ -115,7 +112,20 @@
       <recent name="C:\Users\iPMAC\IdeaProjects\TDDExample\src\main\java\samsungtdd\Refactor" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BankInterestCalculatorTest">
+  <component name="RunManager" selected="Application.BuilderDemo">
+    <configuration name="BuilderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="samsungtdd.builderlombok.BuilderDemo" />
+      <module name="TDDExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="samsungtdd.builderlombok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BankInterestCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDExample" />
       <extension name="coverage">
@@ -127,22 +137,6 @@
       <option name="PACKAGE_NAME" value="Refactor" />
       <option name="MAIN_CLASS_NAME" value="Refactor.BankInterestCalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BankInterestCalculatorTest.should_interest_calculated_for_premium_from_6_to_12_month" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDDExample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Refactor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Refactor" />
-      <option name="MAIN_CLASS_NAME" value="Refactor.BankInterestCalculatorTest" />
-      <option name="METHOD_NAME" value="should_interest_calculated_for_premium_from_6_to_12_month(int)" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuilderDemo" />
         <item itemvalue="JUnit.BankInterestCalculatorTest" />
         <item itemvalue="JUnit.BankInterestCalculatorTest.should_interest_calculated_for_vip_from_6_to_12_month" />
         <item itemvalue="JUnit.BankInterestCalculatorTest.should_interest_calculated_for_vip_below_6_month" />
         <item itemvalue="JUnit.BankInterestCalculatorTest.should_return_interest_calculated_for_premium_over_12_month" />
-        <item itemvalue="JUnit.BankInterestCalculatorTest.should_interest_calculated_for_premium_from_6_to_12_month" />
       </list>
     </recent_temporary>
   </component>
