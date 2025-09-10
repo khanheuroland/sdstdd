@@ -1,7 +1,7 @@
 package samsungtdd;
 
 public class PrimeNumber {
-    public static boolean check(int number) {
+    public boolean check(int number) {
         if(number<=2 && number>0)
             return false;
         else if(number>2)

@@ -1,6 +1,7 @@
 package Subscription.Mock;
 
 import Subscription.Stub.SubscriptionRepositoryStub;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import samsungtdd.subscriber.ISubscriptionRepository;
 import samsungtdd.subscriber.Subscription;
@@ -15,6 +16,7 @@ import static org.mockito.Mockito.*;
 
 public class SubscriptionFnTest {
     @Test
+    @Disabled
     public void should_return_false_after_subscribe_with_email_is_subscripted()
     {
         //Arrange

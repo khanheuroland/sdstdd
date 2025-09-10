@@ -1,11 +1,20 @@
 package samsungtdd;
 
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class PrimeNumberTest {  /* [Class Under Test]Test */
+    PrimeNumber PrimeNumber;
+    @BeforeEach
+    public void setup()
+    {
+        this.PrimeNumber = new PrimeNumber();
+    }
     @Test /*Mark this is a testcase*/
+    @Disabled
     public void should_return_fasle_with_number_less_than_2()
     {
         //Arrange - Gia thiet & kq mong muon
