@@ -7,9 +7,7 @@
     <list default="true" id="e8d097a7-5886-4824-8433-428382406415" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/samsungtdd/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/samsungtdd/PrimeNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Subscription/Mock/SubscriptionFnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Subscription/Mock/SubscriptionFnTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/samsungtdd/PrimeNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/samsungtdd/PrimeNumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/samsungtdd/SubscriptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/samsungtdd/SubscriptionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

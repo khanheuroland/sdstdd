@@ -20,7 +20,6 @@ public class SubscriptionTest {
         subObj.lstEmail.clear();
     }
     @Test
-    @Disabled
     public void should_return_true_after_subscribe_with_valid_email_and_not_subscribe()
     {
         //Arrange
@@ -36,7 +35,6 @@ public class SubscriptionTest {
     }
 
     @Test
-    @Disabled
     public void should_return_false_after_subscribe_with_valid_email_but_already_in_used()
     {
         //Arrange
@@ -52,7 +50,6 @@ public class SubscriptionTest {
 
     @ParameterizedTest
     @ValueSource(strings = {"khanh.tx", "khanh tx@live.com", "khanh_tx@live com", "khanh.tx@gmail.com.vn.md.com"})
-    @Disabled
     public void should_return_exception_after_subscribe_email_not_valid(String input)
     {
         //String input ="khanh.tx";
@@ -65,7 +62,6 @@ public class SubscriptionTest {
     }
 
     @Test
-    @Disabled
     public void should_throw_exception_after_subscribe_with_null()
     {
         Exception ex = assertThrows(IllegalArgumentException.class, ()-> subObj.subscribe(null));
