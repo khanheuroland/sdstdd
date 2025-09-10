@@ -29,3 +29,14 @@ jobs:
         cache: maven
     - name: Execute Unit Test with Maven
       run: mvn clean verify
+    - name: Upload JaCoCo Report
+      uses: actions/upload-artifact@v4
+      with:
+        name: jacoco-report
+        path: target/site/jacoco
+    - name: Deploy JaCoCo report to Github Pages
+      uses: peaceiris/pload-gh-page@v4
+      with:
+        github_token: ${{secrets.GITHUB_TOKEN}}
+        publish_dir: ./target/site/jacoco
+        destination_dir: jacoco
